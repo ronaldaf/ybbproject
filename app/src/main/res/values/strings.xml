@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ybbProject</string>
+    <string name="register_btn">Register</string>
+    <string name="login_btn">Login</string>
+    <string name="have_account">Have account? Login here!</string>
+    <string name="not_have_account" tools:ignore="StringEscaping">Not have account? Register here!</string>
+    <string name="logout">Logout</string>
+    <string name="forgot_password">Forgot Password? Recover</string>
+</resources>
