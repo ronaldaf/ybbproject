@@ -11,6 +11,10 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
 
+<<<<<<< Updated upstream
         //KOMEN IVAL
+=======
+        //ini juga kpmen
+>>>>>>> Stashed changes
     }
 }
