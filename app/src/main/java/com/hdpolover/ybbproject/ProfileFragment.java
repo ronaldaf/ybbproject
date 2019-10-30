@@ -12,6 +12,9 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -42,7 +45,6 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
-import java.security.Key;
 import java.util.HashMap;
 
 import static android.app.Activity.RESULT_OK;
@@ -140,6 +142,7 @@ public class ProfileFragment extends Fragment {
                         Picasso.get().load(R.drawable.ic_default_img_white).into(avatarIv);
                     }
 
+                    //for cover
                     try {
                         //if image is received then set
                         Picasso.get().load(cover).into(coverIv);
@@ -215,27 +218,27 @@ public class ProfileFragment extends Fragment {
         //set items to dialog
         builder.setItems(options, new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
+            public void onClick(DialogInterface dialogInterface, int which) {
                 //handle dialog item click
-                if(i == 0){
+                if(which == 0){
                     //edit profile
                     progressDialog.setMessage("Updating Profile Picture");
                     profileOrCoverPhoto = "image";
                     showImagePicDialog();
                     
-                }else if(i == 1){
+                }else if(which == 1){
                     //edit cover
-                    progressDialog.setMessage("Updating Cover Picture");
+                    progressDialog.setMessage("Updating Cover Photo");
                     profileOrCoverPhoto = "cover";
                     showImagePicDialog();
 
-                }else if(i == 2){
+                }else if(which == 2){
                     //edit name
                     progressDialog.setMessage("Updating Name");
                     //calling method and pass key "name" as parameter
                     showNamePhotoUpdateDialog("name");
 
-                }else if(i == 3){
+                }else if(which == 3){
                     //edit phone
                     progressDialog.setMessage("Updating Phone");
                     //calling method and pass key "phone" as parameter
@@ -489,5 +492,50 @@ public class ProfileFragment extends Fragment {
         galleryIntent.setType("image/*");
         startActivityForResult(galleryIntent,IMAGE_PICK_GALLERY_CODE);
     }
+
+    private void checkUserStatus() {
+        //get current user
+        FirebaseUser user = firebaseAuth.getCurrentUser();
+        if (user != null) {
+            //user is signed in stay here
+            //set users of logged in user
+//            mMasukTv.setText(user.getEmail());
+
+        } else {
+            //user not signed in, go to welcome
+            startActivity(new Intent(getActivity(), MainActivity.class));
+            getActivity().finish();
+        }
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        setHasOptionsMenu(true); //to show menu option in fragment
+        super.onCreate(savedInstanceState);
+    }
+
+    //Inflate options menu
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        //inflating menu
+        inflater.inflate(R.menu.menu_main, menu);
+        super.onCreateOptionsMenu(menu, inflater);
+    }
+
+    //handle menu item click
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //get item id
+        int id = item.getItemId();
+        if (id == R.id.action_logout) {
+            firebaseAuth.signOut();
+            checkUserStatus();
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
 
 }

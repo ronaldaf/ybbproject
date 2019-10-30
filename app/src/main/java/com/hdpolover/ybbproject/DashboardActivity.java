@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
@@ -15,6 +16,10 @@ import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.hdpolover.ybbproject.notifications.Token;
 
 public class DashboardActivity extends AppCompatActivity {
 
@@ -25,6 +30,8 @@ public class DashboardActivity extends AppCompatActivity {
     //views
 //    TextView mMasukTv;
 
+    String mUID;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +40,7 @@ public class DashboardActivity extends AppCompatActivity {
         //init firebase
         firebaseAuth = FirebaseAuth.getInstance();
 
+        //bottom navigation
         BottomNavigationView bottomNav = findViewById(R.id.botton_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
@@ -40,6 +48,22 @@ public class DashboardActivity extends AppCompatActivity {
         //init views
 //        mMasukTv = findViewById(R.id.masukTv);
 
+        checkUserStatus();
+
+        //update token
+        updateToken(FirebaseInstanceId.getInstance().getToken());
+    }
+
+    @Override
+    protected void onResume() {
+        checkUserStatus();
+        super.onResume();
+    }
+
+    public void updateToken(String token){
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Tokens");
+        Token mToken = new Token(token);
+        ref.child(mUID).setValue(mToken);
     }
 
     private void checkUserStatus() {
@@ -49,6 +73,14 @@ public class DashboardActivity extends AppCompatActivity {
             //user is signed in stay here
             //set users of logged in user
 //            mMasukTv.setText(user.getEmail());
+            mUID = user.getUid();
+
+            //save uid of currently signed in user in share preferences
+            SharedPreferences sp = getSharedPreferences("SP_USER",MODE_PRIVATE);
+            SharedPreferences.Editor editor = sp.edit();
+            editor.putString("Current_USERID", mUID);
+            editor.apply();
+
         } else {
             //user not signed in, go to welcome
             startActivity(new Intent(DashboardActivity.this, MainActivity.class));
@@ -61,31 +93,6 @@ public class DashboardActivity extends AppCompatActivity {
         //check on start of app
         checkUserStatus();
         super.onStart();
-    }
-
-    //Inflate options menu
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        //inflating menu
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    //handle menu item click
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        //get item id
-        int id = item.getItemId();
-        if (id == R.id.action_logout) {
-            firebaseAuth.signOut();
-            checkUserStatus();
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 
     //mendisabled tombol back

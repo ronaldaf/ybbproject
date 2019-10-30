@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "120927644871",
+    "firebase_url": "https://ybbproject-a6607.firebaseio.com",
+    "project_id": "ybbproject-a6607",
+    "storage_bucket": "ybbproject-a6607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120927644871:android:47682796217ffa758ba2e2",
+        "android_client_info": {
+          "package_name": "com.hdpolover.ybbproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120927644871-23f8ap99i3t9hf9vsehl8k9sbtpv5v2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hdpolover.ybbproject",
+            "certificate_hash": "44bc660508a75fc56c9cdd473a702c6ae03975b7"
+          }
+        },
+        {
+          "client_id": "120927644871-ot913bh5rdj9c19s3tc53glmiukiu909.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hdpolover.ybbproject",
+            "certificate_hash": "31e6ecacd68de9fda2b3120face725a3d2af5945"
+          }
+        },
+        {
+          "client_id": "120927644871-uj36fqbdkfh05opi1pkoouigu3p4ok5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_tNE77ezhniuDM0x_V11vys6GPWaMV3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120927644871-uj36fqbdkfh05opi1pkoouigu3p4ok5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120927644871:android:a3bc71614d8d5e208ba2e2",
+        "android_client_info": {
+          "package_name": "juragan.pisang.loginauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120927644871-oerl2m4jra93vfhmimcm2qamsquhmo8h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "juragan.pisang.loginauth",
+            "certificate_hash": "31e6ecacd68de9fda2b3120face725a3d2af5945"
+          }
+        },
+        {
+          "client_id": "120927644871-uj36fqbdkfh05opi1pkoouigu3p4ok5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_tNE77ezhniuDM0x_V11vys6GPWaMV3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120927644871-uj36fqbdkfh05opi1pkoouigu3p4ok5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
