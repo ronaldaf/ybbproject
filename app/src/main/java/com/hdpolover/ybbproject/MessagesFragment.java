@@ -169,6 +169,7 @@ public class MessagesFragment extends Fragment {
 
         //hide searchview, as we dont need it here
        menu.findItem(R.id.action_logout).setVisible(false);
+        menu.findItem(R.id.action_add_post).setVisible(false);
 
         //searchView
         MenuItem item = menu.findItem(R.id.action_search);

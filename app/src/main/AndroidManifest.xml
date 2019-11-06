@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".AddPostActivity" />
 
         <service android:name=".notifications.FirebaseService"
             android:enabled="true"
