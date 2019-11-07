@@ -18,7 +18,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="fitXY"
-                android:background="@color/colorPrimaryDark">
+                android:background="@color/primaryDarkColor">
 
             </ImageView>
 
@@ -34,9 +34,8 @@
                     android:layout_height="120dp"
                     android:src="@drawable/ic_default_img_white"
                     android:padding="5dp"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/primaryColor"
                     android:layout_marginLeft="20dp"/>
-
 
                 <LinearLayout
                     android:layout_width="match_parent"

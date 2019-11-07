@@ -85,7 +85,7 @@
         <TextView
             android:id="@+id/pUpvoteTv"
             android:text="1.2K"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/primaryColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
