@@ -177,8 +177,9 @@ public class AddPostActivity extends AppCompatActivity {
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             //image is uploaded to firebase
                             Task<Uri> uriTask = taskSnapshot.getStorage().getDownloadUrl();
-                            while (!uriTask.isSuccessful()) {
-                                String downloadUri = uriTask.getResult().toString();
+                            while (!uriTask.isSuccessful());
+
+                            String downloadUri = uriTask.getResult().toString();
 
                                 if (uriTask.isSuccessful()) {
                                     //uri is receiveed upload post
@@ -220,7 +221,6 @@ public class AddPostActivity extends AppCompatActivity {
                                                 }
                                             });
                                 }
-                            }
                         }
                     })
                     .addOnFailureListener(new OnFailureListener() {
