@@ -1,0 +1,341 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hdpolover.ybbproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:5:5-65
+11-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:6:5-67
+14-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:7:5-81
+15-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:11:5-76
+17-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:11:22-73
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:5:5-65
+18-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:5:22-62
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\332fcb9a520faaeb3bebc9e3bc87c80e\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:24:5-68
+19-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\332fcb9a520faaeb3bebc9e3bc87c80e\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:26:22-79
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+22
+23    <application
+23-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:14:5-53:19
+24        android:allowBackup="true"
+24-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:15:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\1385c277c66981aaef010899cf97b565\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:16:9-43
+28        android:label="@string/app_name"
+28-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:17:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:18:9-54
+30        android:supportsRtl="true"
+30-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:19:9-35
+31        android:theme="@style/AppTheme" >
+31-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:20:9-40
+32        <activity android:name="com.hdpolover.ybbproject.UserProfileActivity" />
+32-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:21:9-66
+32-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:21:19-54
+33        <activity
+33-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:22:9-24:49
+34            android:name="com.hdpolover.ybbproject.ChatActivity"
+34-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:23:13-41
+35            android:theme="@style/AppThemeNo" />
+35-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:24:13-46
+36        <activity android:name="com.hdpolover.ybbproject.DashboardActivity" >
+36-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:25:9-31:20
+36-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:25:19-52
+37            <intent-filter>
+37-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:26:13-30:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:27:17-69
+38-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:27:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:29:17-77
+40-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:29:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.hdpolover.ybbproject.RegisterActivity" />
+43-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:32:9-54
+43-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:32:19-51
+44        <activity android:name="com.hdpolover.ybbproject.MainActivity" />
+44-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:33:9-50
+44-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:33:19-47
+45        <activity android:name="com.hdpolover.ybbproject.AddPostActivity" />
+45-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:34:9-53
+45-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:34:19-50
+46        <activity android:name="com.hdpolover.ybbproject.HomeFragment" />
+46-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:35:9-50
+46-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:35:19-47
+47
+48        <service
+48-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:37:9-44:19
+49            android:name="com.hdpolover.ybbproject.notifications.FirebaseService"
+49-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:38:13-58
+50            android:enabled="true"
+50-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:39:13-35
+51            android:exported="true" >
+51-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:40:13-36
+52            <intent-filter>
+52-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:41:13-43:29
+53                <action android:name="com.google.firebase.INSTANCE_ID_SERVICE" />
+53-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:42:17-82
+53-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:42:25-79
+54            </intent-filter>
+55        </service>
+56        <service
+56-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:45:9-52:19
+57            android:name="com.hdpolover.ybbproject.notifications.FirebaseMessaging"
+57-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:46:13-60
+58            android:enabled="true"
+58-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:47:13-35
+59            android:exported="true" >
+59-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:48:13-36
+60            <intent-filter>
+60-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:49:13-51:29
+61                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+61-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:50:17-78
+61-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:50:25-75
+62            </intent-filter>
+63        </service>
+64
+65        <activity
+65-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+66            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+66-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+67            android:excludeFromRecents="true"
+67-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+68            android:exported="true"
+68-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+69            android:launchMode="singleTask"
+69-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+70            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+70-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+72
+73        <service
+73-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:33:9-39:19
+74            android:name="com.google.firebase.components.ComponentDiscoveryService"
+74-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:34:13-84
+75            android:exported="false" >
+75-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:35:13-37
+76            <meta-data
+76-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+77                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+77-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8661e92ac83df401675fd51ee430c46f\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-database:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\75c58c997e57473feff3b3b375e942aa\jetified-firebase-database-17.0.0\AndroidManifest.xml:30:13-32:85
+80                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+80-->[com.google.firebase:firebase-database:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\75c58c997e57473feff3b3b375e942aa\jetified-firebase-database-17.0.0\AndroidManifest.xml:31:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-database:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\75c58c997e57473feff3b3b375e942aa\jetified-firebase-database-17.0.0\AndroidManifest.xml:32:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4dd2f3373ece3c6f687e405e02455b7e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+83                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+83-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4dd2f3373ece3c6f687e405e02455b7e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4dd2f3373ece3c6f687e405e02455b7e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+85            <meta-data
+85-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\332fcb9a520faaeb3bebc9e3bc87c80e\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+86                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+86-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\332fcb9a520faaeb3bebc9e3bc87c80e\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\332fcb9a520faaeb3bebc9e3bc87c80e\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+89-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:33:17-96
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:34:17-82
+91        </service>
+92        <!--
+93             FirebaseMessagingService performs security checks at runtime,
+94             but set to not exported to explicitly avoid allowing another app to call it.
+95        -->
+96        <service
+96-->[com.google.firebase:firebase-messaging:17.6.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\2a5df5e879d545d83e8a96ea3e52a6a6\jetified-firebase-messaging-17.6.0\AndroidManifest.xml:28:9-34:19
+97            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+97-->[com.google.firebase:firebase-messaging:17.6.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\2a5df5e879d545d83e8a96ea3e52a6a6\jetified-firebase-messaging-17.6.0\AndroidManifest.xml:29:13-82
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-messaging:17.6.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\2a5df5e879d545d83e8a96ea3e52a6a6\jetified-firebase-messaging-17.6.0\AndroidManifest.xml:30:13-37
+99            <intent-filter android:priority="-500" >
+99-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:49:13-51:29
+100                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+100-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:50:17-78
+100-->D:\Kuliah\Semester 5\PPB\AS Projects\ybbproject\app\src\main\AndroidManifest.xml:50:25-75
+101            </intent-filter>
+102        </service>
+103
+104        <activity
+104-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\0d95de46c1f89e8be49725188b248360\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+105            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+105-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\0d95de46c1f89e8be49725188b248360\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+106            android:excludeFromRecents="true"
+106-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\0d95de46c1f89e8be49725188b248360\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\0d95de46c1f89e8be49725188b248360\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\0d95de46c1f89e8be49725188b248360\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+109        <!--
+110            Service handling Google Sign-In user revocation. For apps that do not integrate with
+111            Google Sign-In, this service will never be started.
+112        -->
+113        <service
+113-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\0d95de46c1f89e8be49725188b248360\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+114            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+114-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\0d95de46c1f89e8be49725188b248360\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+115            android:exported="true"
+115-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\0d95de46c1f89e8be49725188b248360\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+116            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+116-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\0d95de46c1f89e8be49725188b248360\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+117
+118        <provider
+118-->[com.squareup.picasso:picasso:2.71828] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\7c573fe81ae0fff6caa25becbe0760ce\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+119            android:name="com.squareup.picasso.PicassoProvider"
+119-->[com.squareup.picasso:picasso:2.71828] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\7c573fe81ae0fff6caa25becbe0760ce\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+120            android:authorities="com.hdpolover.ybbproject.com.squareup.picasso"
+120-->[com.squareup.picasso:picasso:2.71828] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\7c573fe81ae0fff6caa25becbe0760ce\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+121            android:exported="false" />
+121-->[com.squareup.picasso:picasso:2.71828] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\7c573fe81ae0fff6caa25becbe0760ce\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+122
+123        <receiver
+123-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:37:9-44:20
+124            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+124-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:38:13-78
+125            android:exported="true"
+125-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:39:13-36
+126            android:permission="com.google.android.c2dm.permission.SEND" >
+126-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:40:13-73
+127            <intent-filter>
+127-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:41:13-43:29
+128                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+128-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:17-81
+128-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:25-78
+129            </intent-filter>
+130        </receiver>
+131        <!--
+132             FirebaseInstanceIdService performs security checks at runtime,
+133             no need for explicit permissions despite exported="true"
+134        -->
+135        <service
+135-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:50:9-56:19
+136            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+136-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:51:13-77
+137            android:exported="true" >
+137-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:52:13-36
+138            <intent-filter android:priority="-500" >
+138-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:13-55:29
+138-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:28-51
+139                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+139-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:17-80
+139-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4929c3f184c46cde2f67d0ed4dbca97b\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:25-77
+140            </intent-filter>
+141        </service>
+142
+143        <activity
+143-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4db8b2c0ad853ae1be7be7105e58c810\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+144            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+144-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4db8b2c0ad853ae1be7be7105e58c810\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4db8b2c0ad853ae1be7be7105e58c810\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\4db8b2c0ad853ae1be7be7105e58c810\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+147
+148        <provider
+148-->[com.google.firebase:firebase-common:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\15ab79d7238a8bc5e0cdd8e7a0a77e68\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+149            android:name="com.google.firebase.provider.FirebaseInitProvider"
+149-->[com.google.firebase:firebase-common:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\15ab79d7238a8bc5e0cdd8e7a0a77e68\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+150            android:authorities="com.hdpolover.ybbproject.firebaseinitprovider"
+150-->[com.google.firebase:firebase-common:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\15ab79d7238a8bc5e0cdd8e7a0a77e68\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+151            android:exported="false"
+151-->[com.google.firebase:firebase-common:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\15ab79d7238a8bc5e0cdd8e7a0a77e68\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+152            android:initOrder="100" />
+152-->[com.google.firebase:firebase-common:17.0.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\15ab79d7238a8bc5e0cdd8e7a0a77e68\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+153
+154        <receiver
+154-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+155            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+155-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+156            android:enabled="true"
+156-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+157            android:exported="false" >
+157-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+158        </receiver>
+159        <receiver
+159-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+160            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+160-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+161            android:enabled="true"
+161-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+162            android:exported="true"
+162-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+163            android:permission="android.permission.INSTALL_PACKAGES" >
+163-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+164            <intent-filter>
+164-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+165                <action android:name="com.android.vending.INSTALL_REFERRER" />
+165-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+165-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+166            </intent-filter>
+167        </receiver>
+168
+169        <service
+169-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+170            android:name="com.google.android.gms.measurement.AppMeasurementService"
+170-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+171            android:enabled="true"
+171-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+172            android:exported="false" />
+172-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+173        <service
+173-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+174            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+174-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+175            android:enabled="true"
+175-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+176            android:exported="false"
+176-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+177            android:permission="android.permission.BIND_JOB_SERVICE" />
+177-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\8e8644ba373f69f2ba8bead510b9e8ac\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+178
+179        <meta-data
+179-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\ba1841e173160a5e011b97fc9bafa869\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
+180            android:name="com.google.android.gms.version"
+180-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\ba1841e173160a5e011b97fc9bafa869\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
+181            android:value="@integer/google_play_services_version" />
+181-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\hendr\.gradle\caches\transforms-2\files-2.1\ba1841e173160a5e011b97fc9bafa869\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
+182    </application>
+183
+184</manifest>

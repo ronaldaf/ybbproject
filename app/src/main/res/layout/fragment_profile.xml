@@ -23,6 +23,7 @@
             </ImageView>
 
             <LinearLayout
+                android:id="@+id/linearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal"
@@ -75,8 +76,14 @@
 
             </LinearLayout>
 
-        </RelativeLayout>
+            <!--                recycler view for user specific posts-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_posts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/linearLayout"/>
 
+        </RelativeLayout>
     </ScrollView>
 
 <!--    Floating action button-->

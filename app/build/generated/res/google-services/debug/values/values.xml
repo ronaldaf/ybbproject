@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">120927644871-uj36fqbdkfh05opi1pkoouigu3p4ok5a.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ybbproject-a6607.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">120927644871</string>
+    <string name="google_api_key" translatable="false">AIzaSyC_tNE77ezhniuDM0x_V11vys6GPWaMV3k</string>
+    <string name="google_app_id" translatable="false">1:120927644871:android:47682796217ffa758ba2e2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC_tNE77ezhniuDM0x_V11vys6GPWaMV3k</string>
+    <string name="google_storage_bucket" translatable="false">ybbproject-a6607.appspot.com</string>
+    <string name="project_id" translatable="false">ybbproject-a6607</string>
+</resources>

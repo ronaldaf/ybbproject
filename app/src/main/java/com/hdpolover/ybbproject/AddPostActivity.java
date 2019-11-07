@@ -116,13 +116,11 @@ public class AddPostActivity extends AppCompatActivity {
             }
         });
 
-
         //init views
         titleEt = findViewById(R.id.pTitleEt);
         descEt = findViewById(R.id.pDescEt);
         imageIv = findViewById(R.id.pImageIv);
         uploadBtn = findViewById(R.id.pUploadBtn);
-
 
         //get image from camer/gallery on click
         imageIv.setOnClickListener(new View.OnClickListener() {
@@ -210,6 +208,8 @@ public class AddPostActivity extends AppCompatActivity {
                                                     descEt.setText("");
                                                     imageIv.setImageURI(null);
                                                     image_rui = null;
+
+                                                    startActivity(new Intent(AddPostActivity.this, DashboardActivity.class));
                                                 }
                                             })
                                             .addOnFailureListener(new OnFailureListener() {
@@ -260,6 +260,8 @@ public class AddPostActivity extends AppCompatActivity {
                             descEt.setText("");
                             imageIv.setImageURI(null);
                             image_rui = null;
+
+                            startActivity(new Intent(AddPostActivity.this, DashboardActivity.class));
                         }
                     })
                     .addOnFailureListener(new OnFailureListener() {

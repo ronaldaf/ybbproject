@@ -1,0 +1,4 @@
+#Thu Nov 07 22:51:06 ICT 2019
+base.0=D\:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

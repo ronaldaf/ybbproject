@@ -1,6 +1,7 @@
 package com.hdpolover.ybbproject.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,6 +17,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.hdpolover.ybbproject.R;
+import com.hdpolover.ybbproject.UserProfileActivity;
 import com.hdpolover.ybbproject.models.ModelPost;
 import com.squareup.picasso.Picasso;
 
@@ -44,7 +47,7 @@ public class AdapterPost extends RecyclerView.Adapter<AdapterPost.MyHolder> {
     @Override
     public void onBindViewHolder(@NonNull MyHolder myHolder, int position) {
         //get data
-        String uid = postList.get(position).getUid();
+        final String uid = postList.get(position).getUid();
         String uEmail = postList.get(position).getuEmail();
         String uName = postList.get(position).getuName();
         String uDp = postList.get(position).getuDp();
@@ -108,6 +111,16 @@ public class AdapterPost extends RecyclerView.Adapter<AdapterPost.MyHolder> {
                 Toast.makeText(context, "Comment", Toast.LENGTH_SHORT).show();
             }
         });
+        myHolder.profileLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //will be used to go to userprofileactivity
+                //with uid to show user's posts
+                Intent intent = new Intent(context, UserProfileActivity.class);
+                intent.putExtra("uid", uid);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -122,6 +135,7 @@ public class AdapterPost extends RecyclerView.Adapter<AdapterPost.MyHolder> {
         TextView uNameTv, pTimeTv, pTitleTv, pDescTv, pUpvotesTv;
         ImageButton moreBtn;
         Button upvoteBtn, commentBtn;
+        LinearLayout profileLayout;
 
         public MyHolder(@NonNull View itemView) {
             super(itemView);
@@ -137,7 +151,7 @@ public class AdapterPost extends RecyclerView.Adapter<AdapterPost.MyHolder> {
             moreBtn = itemView.findViewById(R.id.moreBtn);
             upvoteBtn = itemView.findViewById(R.id.upvoteBtn);
             commentBtn = itemView.findViewById(R.id.commentBtn);
-
+            profileLayout = itemView.findViewById(R.id.profileLayout);
         }
     }
 }
