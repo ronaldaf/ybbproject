@@ -312,6 +312,10 @@
         "source": "C:\\Users\\hendr\\.gradle\\caches\\transforms-2\\files-2.1\\f0f00ace77ec1f6933ba390ef5299f71\\appcompat-1.1.0\\res\\color\\switch_thumb_material_light.xml"
     },
     {
+        "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_upvote_filled.png.flat",
+        "source": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_upvote_filled.png"
+    },
+    {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\hendr\\.gradle\\caches\\transforms-2\\files-2.1\\4db8b2c0ad853ae1be7be7105e58c810\\jetified-play-services-base-16.0.1\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     },
@@ -868,6 +872,10 @@
         "source": "C:\\Users\\hendr\\.gradle\\caches\\transforms-2\\files-2.1\\f0f00ace77ec1f6933ba390ef5299f71\\appcompat-1.1.0\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
+        "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_upvote_filled.png.flat",
+        "source": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\src\\main\\res\\drawable-mdpi\\ic_upvote_filled.png"
+    },
+    {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -1218,6 +1226,10 @@
     {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_item_tint.xml.flat",
         "source": "C:\\Users\\hendr\\.gradle\\caches\\transforms-2\\files-2.1\\37c59bb9490af5ce168f6af314373aaf\\material-1.0.0\\res\\color\\mtrl_bottom_nav_item_tint.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_upvote_filled.png.flat",
+        "source": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\src\\main\\res\\drawable-xxhdpi\\ic_upvote_filled.png"
     },
     {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -2008,6 +2020,10 @@
         "source": "C:\\Users\\hendr\\.gradle\\caches\\transforms-2\\files-2.1\\1cb58e7603104218492d4c7233a33f30\\media-1.0.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
+        "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_upvote_filled.xml.flat",
+        "source": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_upvote_filled.xml"
+    },
+    {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
         "source": "C:\\Users\\hendr\\.gradle\\caches\\transforms-2\\files-2.1\\f0f00ace77ec1f6933ba390ef5299f71\\appcompat-1.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
@@ -2094,6 +2110,10 @@
     {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\hendr\\.gradle\\caches\\transforms-2\\files-2.1\\f0f00ace77ec1f6933ba390ef5299f71\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_upvote_filled.png.flat",
+        "source": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\src\\main\\res\\drawable-xhdpi\\ic_upvote_filled.png"
     },
     {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -2334,6 +2354,10 @@
     {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_show_motion_spec.xml.flat",
         "source": "C:\\Users\\hendr\\.gradle\\caches\\transforms-2\\files-2.1\\37c59bb9490af5ce168f6af314373aaf\\material-1.0.0\\res\\animator\\design_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_upvote_filled.png.flat",
+        "source": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_upvote_filled.png"
     },
     {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -2718,6 +2742,10 @@
     {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
         "source": "C:\\Users\\hendr\\.gradle\\caches\\transforms-2\\files-2.1\\4db8b2c0ad853ae1be7be7105e58c810\\jetified-play-services-base-16.0.1\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_upvote_filled.png.flat",
+        "source": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\src\\main\\res\\drawable-hdpi\\ic_upvote_filled.png"
     },
     {
         "merged": "D:\\Kuliah\\Semester 5\\PPB\\AS Projects\\ybbproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
